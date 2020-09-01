@@ -1,0 +1,301 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-08-27T10:38:18.468Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.taggedHooksStepDefinitions.setUp0()"
+            }
+          },
+          {
+            "result": {
+              "duration": 3683000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.taggedHooksStepDefinitions.setUp1()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Verify login",
+        "description": "",
+        "id": "free-crm-tagging-feature-file;verify-login",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.taggedHooksStepDefinitions.tearDown1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 45000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.taggedHooksStepDefinitions.tearDown0()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on the login page",
+            "match": {
+              "location": "stepDefinitions.taggingStepDefinitions.user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          },
+          {
+            "name": "@RegressionTest"
+          },
+          {
+            "name": "@End2EndTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-27T10:38:22.265Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.taggedHooksStepDefinitions.setUp0()"
+            }
+          },
+          {
+            "result": {
+              "duration": 3125000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.taggedHooksStepDefinitions.setUp1()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Verify home page title",
+        "description": "",
+        "id": "free-crm-tagging-feature-file;verify-home-page-title",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.taggedHooksStepDefinitions.tearDown1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 33000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.taggedHooksStepDefinitions.tearDown0()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is on the home page",
+            "match": {
+              "location": "stepDefinitions.taggingStepDefinitions.user_is_on_the_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          },
+          {
+            "name": "@End2EndTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-27T10:38:25.432Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.taggedHooksStepDefinitions.setUp0()"
+            }
+          },
+          {
+            "result": {
+              "duration": 3061000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.taggedHooksStepDefinitions.setUp1()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "Logout",
+        "description": "",
+        "id": "free-crm-tagging-feature-file;logout",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.taggedHooksStepDefinitions.tearDown1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 36000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.taggedHooksStepDefinitions.tearDown0()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user is logged in",
+            "match": {
+              "location": "stepDefinitions.taggingStepDefinitions.user_is_logged_in()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          },
+          {
+            "name": "@RegressionTest"
+          },
+          {
+            "name": "@End2EndTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-27T10:38:28.537Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.taggedHooksStepDefinitions.setUp0()"
+            }
+          },
+          {
+            "result": {
+              "duration": 3053000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.taggedHooksStepDefinitions.setUp1()"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "Close the browser",
+        "description": "",
+        "id": "free-crm-tagging-feature-file;close-the-browser",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.taggedHooksStepDefinitions.tearDown1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 37000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.taggedHooksStepDefinitions.tearDown0()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user is logged out",
+            "match": {
+              "location": "stepDefinitions.taggingStepDefinitions.user_is_logged_out()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          },
+          {
+            "name": "@RegressionTest"
+          },
+          {
+            "name": "@End2EndTest"
+          }
+        ]
+      }
+    ],
+    "name": "Free CRM tagging feature file",
+    "description": "",
+    "id": "free-crm-tagging-feature-file",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/features/tagging.feature",
+    "tags": []
+  }
+]

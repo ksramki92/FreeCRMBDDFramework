@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="13.293">
+<testcase classname="Free CRM tagging feature file" name="Verify login" time="3.786">
+<system-out><![CDATA[Given user is on the login page.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Free CRM tagging feature file" name="Verify home page title" time="3.161">
+<system-out><![CDATA[Given user is on the home page..............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Free CRM tagging feature file" name="Logout" time="3.1">
+<system-out><![CDATA[Given user is logged in.....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Free CRM tagging feature file" name="Close the browser" time="3.094">
+<system-out><![CDATA[Given user is logged out....................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

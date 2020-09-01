@@ -1,0 +1,90 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-07-21T11:17:51.571Z",
+        "line": 2,
+        "name": "Free CRM Login Test Scenario",
+        "description": "",
+        "id": "free-crm-login-feature;free-crm-login-test-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 3,
+            "name": "User is already on Login Page",
+            "match": {
+              "location": "stepDefinitions.LoginStepDefinition.user_already_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "title of Login Page is Free CRM",
+            "match": {
+              "location": "stepDefinitions.LoginStepDefinition.title_of_login_page_is_free_crm()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "user enters username",
+            "match": {
+              "location": "stepDefinitions.LoginStepDefinition.user_enters_username()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user enters password",
+            "match": {
+              "location": "stepDefinitions.LoginStepDefinition.user_enters_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user clicks on Login button",
+            "match": {
+              "location": "stepDefinitions.LoginStepDefinition.user_clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "user is on home page",
+            "match": {},
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Free CRM Login Feature",
+    "description": "",
+    "id": "free-crm-login-feature",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/features/login.feature",
+    "tags": []
+  }
+]
